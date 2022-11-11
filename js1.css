@@ -1,0 +1,70 @@
+*{
+    margin: 0px; padding: 0px; box-sizing: border-box;
+    
+}
+.path {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    background-color: red;
+}
+
+.js1a{
+    width:250px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(250, 13, 13, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
+    padding: 1%;
+    border-radius: 5%;
+    backdrop-filter: blur(4px);
+    z-index: 2;
+}
+input{
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 2%;
+    border: 0px;
+    padding: 5px;
+}
+input:focus{
+    outline-color: red;
+}
+.paswordcontainer{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 1em;
+}
+.paswordcontainer button{
+    max-width:3.5em;
+    height:2.1em;
+    margin:0;
+    border-radius: 0.5em;
+    background-color: red;
+    border-color: white;
+    color: white;
+    margin-top: 0.3em;
+    margin-left: 1em;
+}
+
+.paswordcontainer input{
+    margin-bottom: 0;
+}
+#register{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+#register:hover{
+    background-color: #fff;
+    color: black;
+}
